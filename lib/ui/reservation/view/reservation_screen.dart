@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hotel_reservation_app/models/hotels_model.dart';
-import 'package:hotel_reservation_app/resources/dialog_setup.dart';
-import 'package:hotel_reservation_app/ui/home/view/home_screen.dart';
+import 'package:hotel_reservation_app/models/booking_hotels_model.dart';
 import 'package:hotel_reservation_app/ui/reservation/controller/state/reservation_provider.dart';
-import 'package:hotel_reservation_app/widgets/navigation.dart';
 
 class ReservationScreen extends StatefulWidget {
   // final Hotel hotel;
@@ -29,18 +26,13 @@ class _ReservationScreenState extends State<ReservationScreen> {
     var h = MediaQuery.sizeOf(context).height;
     return Scaffold(
       appBar: AppBar(
-          // leading: IconButton(
-          //     onPressed: () {
-          //       navigateAndFinish(context, const AppNavigationBar());
-          //     },
-          //     icon: const Icon(Icons.arrow_back)),
+
           ),
       body: Consumer(
         builder: (context, ref, child) {
           List<BookingHotel> list =
               ref.watch(reservationProvider).listBookingHotels;
           final prov = ref.watch(reservationProvider);
-          // bool loader = ref.watch(reservationProvider).loader;
           return Column(
             children: [
               Expanded(

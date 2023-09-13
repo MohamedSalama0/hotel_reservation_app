@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hotel_reservation_app/models/hotels_model.dart';
+import 'package:hotel_reservation_app/models/booking_hotels_model.dart';
 import 'package:hotel_reservation_app/resources/dialog_setup.dart';
 import 'package:hotel_reservation_app/ui/reservation/view/reservation_screen.dart';
 import 'package:hotel_reservation_app/widgets/navigation.dart';

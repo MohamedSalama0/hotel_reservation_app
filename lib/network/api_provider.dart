@@ -1,11 +1,9 @@
 import 'dart:convert';
 import 'dart:developer';
-
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'dart:io';
 import 'dart:async';
-
 import 'package:hotel_reservation_app/network/dio_configuration.dart';
 import 'package:hotel_reservation_app/resources/dialog_setup.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';

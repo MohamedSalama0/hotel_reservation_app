@@ -3,8 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hotel_reservation_app/models/hotels_model.dart';
 import 'package:hotel_reservation_app/ui/details_page/controller/state/details_provider.dart';
 import 'package:hotel_reservation_app/ui/reservation/controller/state/reservation_provider.dart';
-import 'package:hotel_reservation_app/ui/reservation/view/reservation_screen.dart';
-import 'package:hotel_reservation_app/widgets/navigation.dart';
 
 class DetailsScreen extends StatelessWidget {
   final Hotel hotel;
@@ -68,7 +66,6 @@ class DetailsScreen extends StatelessWidget {
                 },
                 child: Container(
                   padding: const EdgeInsets.all(12),
-                  // color: Colors.grey,
                   child: const Text('Booking'),
                 ),
               );
