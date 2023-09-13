@@ -1,16 +1,67 @@
-# hotel_reservation_app
-
-A new Flutter project.
+# Hotel Reservation Project
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+A Hotel Reservation App contain home screen, details screen, and reservation screen and confirmation booking and remove booked already exist
 
-A few resources to get you started if this is your first Flutter project:
+## How to Use 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Step 1:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Download or clone this repo by using the link below:
+
+```
+https://github.com/MohamedSalama0/hotel_reservation_app.git
+```
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies: 
+
+```
+flutter pub get 
+```
+
+## Hotel Reservation Features:
+
+* Home screen
+* Details screen
+* Reservasion screen
+* Dio
+* Database(Mock API)
+* Riverpod (State Management)
+* Dependency Injection
+* High performance
+* all functions tested
+
+
+
+### Libraries & Tools Used
+
+* [Dio](https://github.com/flutterchina/dio)
+*[ [Database](https://github.com/tekartik/sembast.dart)](https://mockapi.io/)
+* [Riverpod] https://pub.dev/packages/riverpod
+
+### Folder Structure
+Here is the core folder structure which flutter provides.
+
+```
+flutter-app/
+|- android
+|- build
+|- ios
+|- lib
+|- test
+```
+
+Here is the folder structure we have been using in this project
+
+```
+lib/
+|- models/
+|- network/
+|- resources/
+|- ui/
+|- widgets/
+|- main.dart
+```
